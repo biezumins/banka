@@ -21,11 +21,10 @@ class Account:
         self.currency = currency
         self.initial_balance = initial_balance
         self.timestamp = datetime.datetime.now()
-
-    @property #decorators
-    def account_number(self):
-        return self._account_number
-
+    
+    def print_transaction():
+        pass
+    
 class Client:
     def __init__(self, name: str):
         self.name = name
